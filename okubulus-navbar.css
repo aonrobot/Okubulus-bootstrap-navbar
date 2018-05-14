@@ -1,0 +1,179 @@
+/* ------------ OkUBULUS CUSTOM COLOR ----------------*/
+
+/* ------------ OKU Blue*/
+.navbar-oku-blue{
+    background-color: rgba(42, 55, 68, 0.85)!important;
+}
+.navbar-oku-blue .nav>li>a:focus, .nav>li>a:hover{
+    text-decoration: none;
+    background-color: #5e778e;
+}
+.navbar-oku-blue .navbar-nav>li>a, .navbar-brand{
+    color: #FFF;
+}
+.navbar-oku-blue button.navbar-toggle{
+    background-color: #18bc9c!important;
+    color: #FFF;
+}
+.navbar-oku-blue .nav-oku-section-first{
+    color: #ecf0f1;
+    background-color: rgba(42, 55, 68, 0.76);
+}
+.navbar-oku-blue .nav-oku-profile > img{
+    border: 0.2em solid #19a3ff;
+}
+.navbar-oku-blue .nav-oku-shadow{
+    -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+@media only screen and (max-width: 768px) {
+    .navbar-oku-blue .navbar-collapse, .navbar-oku-blue .navbar-form{
+        background-color: rgb(55, 72, 89);        
+    }
+}
+
+/* ------------ OKU Orange*/
+.navbar-oku-orange{
+    background-color: rgba(255, 143, 44, 0.95)!important;
+}
+.navbar-oku-orange .nav>li>a:focus, .nav>li>a:hover{
+    text-decoration: none;
+    background-color: #f3ad68;
+}
+.navbar-oku-orange .navbar-nav>li>a, .navbar-brand{
+    color: #FFF;
+}
+.navbar-oku-orange button.navbar-toggle{
+    background-color: #b4a08d!important;
+    color: #FFF;
+}
+.navbar-oku-orange .btn-danger{
+    background-color: #e74c3c;
+    border-color: #d43f3a;
+}
+.navbar-oku-orange .nav-oku-section-first{
+    color: #ecf0f1;
+    background-color: rgba(193, 116, 40, 0.76);
+}
+.navbar-oku-orange .nav-oku-profile > img{
+    border: 0.2em solid #f68f72;
+}
+.navbar-oku-orange .nav-oku-shadow{
+    -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+@media only screen and (max-width: 768px) {
+    .navbar-oku-orange .navbar-collapse, .navbar-oku-orange .navbar-form{
+        background-color: rgb(243, 146, 50);       
+    }
+}
+
+/*CUSTOM BOOTSTRAP 3*/
+
+.navbar{
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -30px !important;  /* 50% of your logo width */
+    display: block;
+}
+.navbar-toggle {
+    position: relative;
+    float: left;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    margin-right: 0.2em
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/* OkUBULUS CUSTOM */
+
+.nav-oku-profile{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /*CUSTOM BOOTSTRAP 3*/
+
+    .container-fluid{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .navbar-header{
+        padding-left: 15px;
+    }
+    .navbar-collapse, .navbar-default .navbar-form{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+
+    /* OkUBULUS CUSTOM */
+
+    .nav-oku-profile{
+        display: block;
+        text-align: right;
+        padding: 5vh 0 5vh;
+    }
+    .nav-oku-profile > img{
+        width: 8.7vh;
+        margin-right: 2.5vh;
+        margin-left: 2.5vh;
+        margin-top: 0.3vh;
+        border-radius: 50%;
+        padding: 1px;  
+        float: right;
+    }
+    .nav-oku-profile > .info{
+        margin-top: 2vh;
+        text-align: right;               
+    }
+    .nav-oku-profile > .info > .head{
+        margin: -0.8vh 0 0vh;
+        font-size: 1.45em;
+        font-weight: bold;
+        text-align: right;
+    }
+    .nav-oku-profile > .info > .detail{
+        margin: 0 0 1vh;
+        font-size: 1em;
+        text-align: right;                           
+    }
+    .nav-oku-section-first{
+        padding-right: 15px;
+    }
+    .nav-oku-section-second{
+        padding-right: 15px;                
+    }
+    .row-oku-mobile{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .col-oku-mobile-6{
+        width: 50%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
